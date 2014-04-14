@@ -40,7 +40,7 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 
 [npm-url]: https://npmjs.org/package/github-api
 [npm-image]: https://badge.fury.io/js/github-api.png
-[travis-url]: https://travis-ci.org/kwakayama/github-api
-[travis-image]: https://travis-ci.org/kwakayama/github-api.png?branch=master
-[daviddm-url]: https://david-dm.org/kwakayama/github-api.png?theme=shields.io
-[daviddm-image]: https://david-dm.org/kwakayama/github-api
+[travis-url]: https://travis-ci.org/kwakayama/node-github-api
+[travis-image]: https://travis-ci.org/kwakayama/node-github-api.png?branch=master
+[daviddm-url]: https://david-dm.org/kwakayama/node-github-api.png?theme=shields.io
+[daviddm-image]: https://david-dm.org/kwakayama/node-github-api
