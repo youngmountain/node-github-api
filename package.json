@@ -2,8 +2,8 @@
   "name": "github-api",
   "description": "The best module ever.",
   "version": "0.0.0",
-  "homepage": "user/repo",
-  "bugs": "user/repo/issues",
+  "homepage": "https://github.com/kwakayama/node-github-api",
+  "bugs": "https://github.com/kwakayama/node-github-api/issues",
   "license": "MIT",
   "main": "lib/github-api.js",
   "author": {
@@ -12,24 +12,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "user/repo"
+    "url": "https://github.com/kwakayama/node-github-api"
   },
-  "keywords": [],
+  "keywords":[],
   "dependencies": {
     "github": "^0.1.16",
-    "q": "^1.0.1"
+    "q": "^2.0.1"
   },
   "devDependencies": {
-    "gulp": "~3.5.2",
-    "gulp-bump": "~0.1.4",
-    "gulp-jscs": "~0.3.0",
-    "gulp-jshint": "~1.4.0",
-    "gulp-mocha": "~0.4.1",
-    "should": "~3.1.2",
-    "jshint-stylish": "~0.1.5",
-    "gulp-istanbul": "^0.1.1"
+    "gulp": "^3.6.2",
+    "gulp-bump": "^0.1.8",
+    "gulp-jscs": "^0.4.2",
+    "gulp-jshint": "^1.5.5",
+    "gulp-mocha": "^0.4.1",
+    "gulp-istanbul": "^0.1.1",
+    "coveralls": "^2.10.0",
+    "should": "^3.3.1",
+    "jshint-stylish": "^0.2.0"
   },
   "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "test": "gulp test"
   }
 }

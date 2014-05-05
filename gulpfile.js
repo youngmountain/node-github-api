@@ -3,9 +3,9 @@
 var gulp   = require('gulp');
 var jshint = require('gulp-jshint');
 var jscs = require('gulp-jscs');
+var istanbul = require('gulp-istanbul');
 var mocha  = require('gulp-mocha');
 var bump   = require('gulp-bump');
-var istanbul = require('gulp-istanbul');
 
 var paths = {
   lint: ['./gulpfile.js', './lib/**/*.js'],
@@ -20,12 +20,7 @@ gulp.task('lint', function () {
     .pipe(jshint.reporter('jshint-stylish'));
 });
 
-// gulp.task('mocha', function () {
-//   gulp.src(paths.tests)
-//     .pipe(mocha({ reporter: 'list' }));
-// });
-
-gulp.task('test', function (cb) {
+gulp.task('istanbul', function (cb) {
   gulp.src(paths.source)
     .pipe(istanbul()) // Covering files
     .on('end', function () {
@@ -44,5 +39,5 @@ gulp.task('bump', ['test'], function () {
     .pipe(gulp.dest('./'));
 });
 
-// gulp.task('test', ['lint', 'mocha']);
+gulp.task('test', ['lint', 'istanbul']);
 gulp.task('release', ['bump']);

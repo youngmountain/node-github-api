@@ -19,6 +19,6 @@ github.getStars('kwakayama')
 .then(function(stars) {
   console.dir(stars.length);
 })
-.fail(function(err) {
+.catch(function(err) {
   console.error(err);
 });
