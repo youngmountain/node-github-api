@@ -1,4 +1,4 @@
-# github-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image]
+# github-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
 The best module ever.
 
@@ -39,8 +39,10 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 
 
 [npm-url]: https://npmjs.org/package/github-api
-[npm-image]: https://badge.fury.io/js/github-api.png
+[npm-image]: https://badge.fury.io/js/github-api.svg
 [travis-url]: https://travis-ci.org/kwakayama/node-github-api
-[travis-image]: https://travis-ci.org/kwakayama/node-github-api.png?branch=master
-[daviddm-url]: https://david-dm.org/kwakayama/node-github-api.png?theme=shields.io
+[travis-image]: https://travis-ci.org/kwakayama/node-github-api.svg?branch=master
+[daviddm-url]: https://david-dm.org/kwakayama/node-github-api.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/kwakayama/node-github-api
+[coveralls-url]: https://coveralls.io/r/kwakayama/node-github-api
+[coveralls-image]: https://coveralls.io/repos/kwakayama/node-github-api.png

@@ -13,12 +13,10 @@ var config = {
 
 var github = new Github(config);
 
-// github.getFollowers('kwakayama');
-
-github.getStars('kwakayama')
+github.getStars('kwakayama', 18611173)
 .then(function(stars) {
   console.dir(stars.length);
 })
-.fail(function(err) {
+.catch(function(err) {
   console.error(err);
 });
