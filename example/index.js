@@ -15,7 +15,7 @@ var github = new Github(config);
 
 // github.getFollowers('kwakayama');
 
-github.getStars('stefanbuck', {id:19422460})
+github.getStars('stefanbuck', 19422460)
 .then(function(stars) {
   console.dir(stars.length);
 })
