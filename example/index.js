@@ -1,6 +1,6 @@
 'use strict';
 
-var Github = require("../lib/github-api");
+var Github = require("../lib/node-github-api");
 
 var config = {
   version: "3.0.0",

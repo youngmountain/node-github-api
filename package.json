@@ -1,5 +1,5 @@
 {
-  "name": "github-api",
+  "name": "node-github-api",
   "description": "retrieve github stars",
   "version": "0.0.1",
   "homepage": "https://github.com/kwakayama/node-github-api",

@@ -15,7 +15,7 @@ $ npm install --save github-api
 ###Get all stars
 
 ```javascript
-var github-api = require('github-api');
+var github-api = require('node-github-api');
 github.getStars('kwakayama')
 .then(function(stars) {
   console.dir(stars.length);
@@ -25,7 +25,7 @@ github.getStars('kwakayama')
 ###Get all stars from last id onwards
 
 ```javascript
-var github-api = require('github-api');
+var github-api = require('node-github-api');
 github.getStars('kwakayama', 18611173)
 .then(function(stars) {
   console.dir(stars.length);
@@ -53,8 +53,8 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 
 
 
-[npm-url]: https://npmjs.org/package/github-api
-[npm-image]: https://badge.fury.io/js/github-api.svg
+[npm-url]: https://npmjs.org/package/node-github-api
+[npm-image]: https://badge.fury.io/js/node-github-api.svg
 [travis-url]: https://travis-ci.org/kwakayama/node-github-api
 [travis-image]: https://travis-ci.org/kwakayama/node-github-api.svg?branch=master
 [daviddm-url]: https://david-dm.org/kwakayama/node-github-api.svg?theme=shields.io
