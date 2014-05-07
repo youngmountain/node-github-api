@@ -45,4 +45,4 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 [daviddm-url]: https://david-dm.org/kwakayama/node-github-api.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/kwakayama/node-github-api
 [coveralls-url]: https://coveralls.io/r/kwakayama/node-github-api
-[coveralls-image]: https://coveralls.io/repos/kwakayama/node-github-api.png
+[coveralls-image]: https://coveralls.io/repos/kwakayama/node-github-api/badge.png
