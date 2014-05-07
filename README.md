@@ -1,6 +1,6 @@
 # github-api [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-url]][daviddm-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
-The best module ever.
+retrieve github stars.
 
 
 ## Install
@@ -12,9 +12,24 @@ $ npm install --save github-api
 
 ## Usage
 
+###Get all stars
+
 ```javascript
 var github-api = require('github-api');
-github-api.awesome(); // "awesome"
+github.getStars('kwakayama')
+.then(function(stars) {
+  console.dir(stars.length);
+})
+```
+
+###Get all stars from last id onwards
+
+```javascript
+var github-api = require('github-api');
+github.getStars('kwakayama', 18611173)
+.then(function(stars) {
+  console.dir(stars.length);
+})
 ```
 
 ## API

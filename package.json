@@ -1,7 +1,7 @@
 {
   "name": "github-api",
-  "description": "The best module ever.",
-  "version": "0.0.0",
+  "description": "retrieve github stars",
+  "version": "0.0.1",
   "homepage": "https://github.com/kwakayama/node-github-api",
   "bugs": "https://github.com/kwakayama/node-github-api/issues",
   "license": "MIT",
