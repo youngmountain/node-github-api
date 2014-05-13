@@ -1,7 +1,7 @@
 {
   "name": "node-github-api",
   "description": "retrieve github stars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/kwakayama/node-github-api",
   "bugs": "https://github.com/kwakayama/node-github-api/issues",
   "license": "MIT",
