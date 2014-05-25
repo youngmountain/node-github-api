@@ -24,11 +24,14 @@ gulp.task('lint', function () {
 gulp.task('istanbul', function (cb) {
   gulp.src(paths.source)
     .pipe(istanbul()) // Covering files
-    .on('end', function () {
+    .on('finish', function () {
       gulp.src(paths.tests)
         .pipe(mocha())
         .pipe(istanbul.writeReports()) // Creating the reports after tests runned
-        .on('end', cb);
+        .on('finish', function() {
+          process.chdir(__dirname);
+          cb();
+        });
     });
 });
 
