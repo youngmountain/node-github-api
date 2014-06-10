@@ -55,9 +55,9 @@ Copyright (c) 2014 Kentaro Wakayama. Licensed under the MIT license.
 
 [npm-url]: https://npmjs.org/package/node-github-api
 [npm-image]: https://badge.fury.io/js/node-github-api.svg
-[travis-url]: https://travis-ci.org/kwakayama/node-github-api
-[travis-image]: https://travis-ci.org/kwakayama/node-github-api.svg?branch=master
-[daviddm-url]: https://david-dm.org/kwakayama/node-github-api.svg?theme=shields.io
-[daviddm-image]: https://david-dm.org/kwakayama/node-github-api
-[coveralls-url]: https://coveralls.io/r/kwakayama/node-github-api
-[coveralls-image]: https://coveralls.io/repos/kwakayama/node-github-api/badge.png
+[travis-url]: https://travis-ci.org/youngmountain/node-github-api
+[travis-image]: https://travis-ci.org/youngmountain/node-github-api.svg?branch=master
+[daviddm-url]: https://david-dm.org/youngmountain/node-github-api.svg?theme=shields.io
+[daviddm-image]: https://david-dm.org/youngmountain/node-github-api
+[coveralls-url]: https://coveralls.io/r/youngmountain/node-github-api
+[coveralls-image]: https://coveralls.io/repos/youngmountain/node-github-api/badge.png
